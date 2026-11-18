@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.anvet.com.br/sitemap.xml
+Sitemap: https://www.clinicavetgrajau.com.br/sitemap.xml

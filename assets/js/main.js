@@ -1,5 +1,5 @@
 /* =========================================================================
-   Anvet — comportamento do site
+   Clínica Grajaú — comportamento do site
    Header, menu, animações de entrada, parallax, carrossel, formulário
    ========================================================================= */
 (function () {
@@ -73,7 +73,12 @@
 
     $$("a[data-rede]").forEach(function (a) {
       var url = cfg.redes && cfg.redes[a.getAttribute("data-rede")];
-      if (url) a.href = url;
+      if (url) {
+        a.href = url;
+      } else {
+        /* rede não publicada: some com o ícone em vez de deixar link quebrado */
+        a.parentNode && a.parentNode.removeChild(a);
+      }
     });
 
     var lista = $("[data-horarios]");

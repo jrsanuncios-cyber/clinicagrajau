@@ -11,7 +11,7 @@ $tplServ   = Get-Content -Raw -Encoding UTF8 (Join-Path $build 'tpl-servico.html
 $tplArt    = Get-Content -Raw -Encoding UTF8 (Join-Path $build 'tpl-artigo.html')
 $conteudo  = Join-Path $build 'conteudo'
 
-$dominio   = 'https://www.anvet.com.br'   # ajuste para o domínio final do site
+$dominio   = 'https://www.clinicavetgrajau.com.br'   # ajuste para o domínio final do site
 $ano       = Get-Date -Format 'yyyy-MM-dd'
 
 # ---------- JSON-LD do site (home) ----------
@@ -20,25 +20,29 @@ $ldSite = @"
 {
   "@context": "https://schema.org",
   "@type": "VeterinaryCare",
-  "name": "Clínica Veterinária Anvet",
-  "description": "Clínica veterinária completa para cães e gatos em São Paulo: consultas, vacinação, exames, cirurgias e cuidado especializado.",
+  "name": "Clínica Veterinária Grajaú",
+  "description": "Clínica veterinária completa para cães e gatos no Grajaú, em São Paulo: consultas, vacinação, exames, cirurgias e cuidado especializado.",
   "url": "$dominio/",
-  "telephone": "+551159398706",
-  "email": "contato@anvet.com.br",
+  "telephone": "+551159291545",
+  "email": "contato@clinicavetgrajau.com.br",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Av. Dona Belmira Marin, 1801 - Parque Brasil",
+    "streetAddress": "Av. Dona Belmira Marin, 1920 - Grajaú",
     "addressLocality": "São Paulo",
     "addressRegion": "SP",
-    "postalCode": "04846-010",
+    "postalCode": "04846-000",
     "addressCountry": "BR"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": -23.7453835, "longitude": -46.6891857 },
+  "geo": { "@type": "GeoCoordinates", "latitude": -23.7453098, "longitude": -46.6897559 },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "18:00" }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday"], "opens": "12:00", "closes": "15:00" }
   ],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "899" },
-  "sameAs": ["https://www.google.com/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+Anvet/@-23.7453835,-46.6891857,17z/data=!4m6!3m5!1s0x94ce4f4760488167:0x955659beb9cc203b!8m2!3d-23.7453835!4d-46.6891857!16s%2Fg%2F1ptylqh5q"]
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.1", "reviewCount": "299" },
+  "sameAs": [
+    "https://instagram.com/clinicavet_grajau",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+Graja%C3%BA/@-23.7453098,-46.6897559,17z/data=!4m6!3m5!1s0x94ce4f47639b86e1:0xbb0299aad8b0d80f!8m2!3d-23.7453098!4d-46.6897559!16s%2Fg%2F11g6q3g4mv"
+  ]
 }
 </script>
 "@
@@ -97,32 +101,32 @@ Write-Host 'Gerando páginas fixas...'
 $ldIndex = $ldSite
 $ldPadrao = ''
 
-Montar-Pagina -arquivo 'index.html' -titulo 'Anvet — Clínica Veterinária completa para cães e gatos em São Paulo' `
-    -descricao 'Consultas, vacinas, exames, cirurgias e cuidado especializado para cães e gatos. Cuidado completo, humano e perto de você.' `
+Montar-Pagina -arquivo 'index.html' -titulo 'Clínica Grajaú — Clínica Veterinária completa para cães e gatos em São Paulo' `
+    -descricao 'Consultas, vacinas, exames, cirurgias e cuidado especializado para cães e gatos no Grajaú. Cuidado completo, humano e perto de você.' `
     -ativo 'inicio' -conteudo (Ler-Conteudo 'index.html') -ld $ldIndex
 
-Montar-Pagina -arquivo 'sobre.html' -titulo 'Sobre a Anvet — Clínica Veterinária' `
-    -descricao 'Conheça a história, a estrutura e a forma de cuidar da Clínica Veterinária Anvet.' `
+Montar-Pagina -arquivo 'sobre.html' -titulo 'Sobre a Clínica Grajaú — Clínica Veterinária' `
+    -descricao 'Conheça a história, a estrutura e a forma de cuidar da Clínica Veterinária Grajaú.' `
     -ativo 'sobre' -conteudo (Ler-Conteudo 'sobre.html')
 
-Montar-Pagina -arquivo 'servicos.html' -titulo 'Serviços veterinários — Clínica Veterinária Anvet' `
+Montar-Pagina -arquivo 'servicos.html' -titulo 'Serviços veterinários — Clínica Veterinária Grajaú' `
     -descricao 'Consultas, vacinação, exames laboratoriais, imagem, cirurgias, dermatologia, odontologia, nutrição e banho & tosa.' `
     -ativo 'servicos' -conteudo (Ler-Conteudo 'servicos.html')
 
-Montar-Pagina -arquivo 'equipe.html' -titulo 'Nossa equipe — Clínica Veterinária Anvet' `
-    -descricao 'Conheça a equipe da Anvet: médicos veterinários e profissionais dedicados ao cuidado do seu pet.' `
+Montar-Pagina -arquivo 'equipe.html' -titulo 'Nossa equipe — Clínica Veterinária Grajaú' `
+    -descricao 'Conheça a equipe da Clínica Grajaú: médicos veterinários e profissionais dedicados ao cuidado do seu pet.' `
     -ativo 'equipe' -conteudo (Ler-Conteudo 'equipe.html')
 
-Montar-Pagina -arquivo 'blog.html' -titulo 'Blog da Anvet — dicas de saúde e cuidado para o seu pet' `
+Montar-Pagina -arquivo 'blog.html' -titulo 'Blog da Clínica Grajaú — dicas de saúde e cuidado para o seu pet' `
     -descricao 'Artigos sobre saúde, alimentação, vacinas e comportamento de cães e gatos, escritos pela nossa equipe.' `
     -ativo 'blog' -conteudo (Ler-Conteudo 'blog.html')
 
-Montar-Pagina -arquivo 'contato.html' -titulo 'Contato — Clínica Veterinária Anvet' `
-    -descricao 'Fale com a Anvet por telefone, formulário ou venha nos visitar. Estamos na Av. Dona Belmira Marin, 1801, São Paulo - SP.' `
+Montar-Pagina -arquivo 'contato.html' -titulo 'Contato — Clínica Veterinária Grajaú' `
+    -descricao 'Fale com a Clínica Grajaú por telefone, formulário ou venha nos visitar. Estamos na Av. Dona Belmira Marin, 1920, São Paulo - SP.' `
     -ativo 'contato' -conteudo (Ler-Conteudo 'contato.html')
 
-Montar-Pagina -arquivo 'privacidade.html' -titulo 'Política de Privacidade — Clínica Veterinária Anvet' `
-    -descricao 'Como a Anvet coleta, usa e protege as informações de você e do seu pet (LGPD).' `
+Montar-Pagina -arquivo 'privacidade.html' -titulo 'Política de Privacidade — Clínica Veterinária Grajaú' `
+    -descricao 'Como a Clínica Grajaú coleta, usa e protege as informações de você e do seu pet (LGPD).' `
     -ativo '' -conteudo (Ler-Conteudo 'privacidade.html') -robots 'index, follow'
 
 # ---------- páginas de serviço ----------
@@ -164,7 +168,7 @@ foreach ($s in $dados.servicos) {
   "@type": "Service",
   "name": "$($s.titulo)",
   "description": "$resumoEsc",
-  "provider": { "@type": "VeterinaryCare", "name": "Clínica Veterinária Anvet", "url": "$dominio/" },
+  "provider": { "@type": "VeterinaryCare", "name": "Clínica Veterinária Grajaú", "url": "$dominio/" },
   "areaServed": { "@type": "City", "name": "São Paulo" },
   "serviceType": "$($s.titulo)"
 }
@@ -172,7 +176,7 @@ foreach ($s in $dados.servicos) {
 "@
 
     $pag = "servico-$($s.slug).html"
-    Montar-Pagina -arquivo $pag -titulo "$($s.titulo) — Clínica Veterinária Anvet" `
+    Montar-Pagina -arquivo $pag -titulo "$($s.titulo) — Clínica Veterinária Grajaú" `
         -descricao ($s.resumo) -ativo 'servicos' -conteudo $conteudo -ld $ld `
         -ogImagem $s.img
     $urls += @{ url = $pag; prio = '0.8'; mudou = $ano }
@@ -223,14 +227,14 @@ foreach ($p in $dados.posts) {
   "image": "$dominio/$($p.img)",
   "datePublished": "$($p.data)",
   "author": { "@type": "Person", "name": "$($p.autor)" },
-  "publisher": { "@type": "Organization", "name": "Clínica Veterinária Anvet" },
+  "publisher": { "@type": "Organization", "name": "Clínica Veterinária Grajaú" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "$dominio/artigo-$($p.slug).html" }
 }
 </script>
 "@
 
     $pag = "artigo-$($p.slug).html"
-    Montar-Pagina -arquivo $pag -titulo "$($p.titulo) — Blog da Anvet" `
+    Montar-Pagina -arquivo $pag -titulo "$($p.titulo) — Blog da Clínica Grajaú" `
         -descricao ($p.resumo) -ativo 'blog' -conteudo $conteudo -ld $ld -ogImagem $p.img
     $urls += @{ url = $pag; prio = '0.6'; mudou = $p.data }
 }

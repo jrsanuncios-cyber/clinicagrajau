@@ -1,8 +1,8 @@
-# Anvet — Clínica Veterinária (site institucional)
+# Clínica Grajaú — Clínica Veterinária (site institucional)
 
-Site institucional completo para a **Clínica Veterinária Anvet**, em **HTML/CSS/JS puro** — sem build, sem dependências. Basta abrir no navegador ou servir qualquer pasta estática.
+Site institucional completo para a **Clínica Veterinária Grajaú**, em **HTML/CSS/JS puro** — sem build, sem dependências. Basta abrir no navegador ou servir qualquer pasta estática.
 
-> **Dados:** endereço (Av. Dona Belmira Marin, 1801 — Parque Brasil, São Paulo/SP), telefone ((11) 5939-8706), horários (seg–sáb 09h–18h, dom fechado) e nota (4,5 · 899 avaliações) conforme o **Google Maps**. Fotos, equipe e demais textos são ilustrativos; e-mail e redes sociais são de demonstração.
+> **Dados:** endereço (Av. Dona Belmira Marin, 1920 — Grajaú, São Paulo/SP, 04846-000), telefone ((11) 5929-1545), horários (seg–sáb 10h–20h, dom 12h–15h) e nota (4,1 · 299 avaliações) conforme o **Google Maps**. Fotos e demais textos da equipe são ilustrativos; e-mail é de demonstração.
 
 ## Estrutura
 
@@ -111,11 +111,11 @@ Isso regrava as 20 páginas + `sitemap.xml` a partir de `build/base.html` (cabe�
 
 ## Botões de contato
 
-Todos os CTAs usam o atributo `data-zap` e são preenchidos pelo `config.js`. Como `whatsapp` está vazio, eles viram links `tel:+551159398706` (ligação direta para o fixo) e o botão flutuante vira "Ligar agora". Para reativar o WhatsApp, basta preencher `whatsapp: "5511999999999"` em `config.js`.
+Todos os CTAs usam o atributo `data-zap` e são preenchidos pelo `config.js`. Como `whatsapp` está vazio, eles viram links `tel:+551159291545` (ligação direta para o fixo) e o botão flutuante vira "Ligar agora". Para reativar o WhatsApp, basta preencher `whatsapp: "5511999999999"` em `config.js`.
 
 ## Domínio
 
-O domínio usado em `canonical`, `sitemap.xml`, `robots.txt` e JSON-LD é `https://www.anvet.com.br` — ajuste `$dominio` no topo de `build.ps1` antes de publicar.
+O domínio usado em `canonical`, `sitemap.xml`, `robots.txt` e JSON-LD é `https://www.clinicavetgrajau.com.br` (placeholder) — ajuste `$dominio` no topo de `build.ps1` antes de publicar.
 
 ## Git e publicação
 
