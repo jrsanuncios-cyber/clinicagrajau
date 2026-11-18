@@ -119,7 +119,7 @@ O domínio usado em `canonical`, `sitemap.xml`, `robots.txt` e JSON-LD é `https
 
 ## Git e publicação
 
-- Repositório: **https://github.com/jrsanuncios-cyber/siteanvet** (branch `main`).
+- Repositório: **https://github.com/jrsanuncios-cyber/clinicagrajau** (branch `main`).
 - O Git foi instalado via `winget`. Em um terminal novo ele já está no PATH; em sessões antigas use `C:\Program Files\Git\cmd\git.exe` ou adicione ao PATH.
 - Para enviar alterações:
   ```powershell
