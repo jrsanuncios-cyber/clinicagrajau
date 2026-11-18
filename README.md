@@ -117,6 +117,19 @@ Todos os CTAs usam o atributo `data-zap` e são preenchidos pelo `config.js`. Co
 
 O domínio usado em `canonical`, `sitemap.xml`, `robots.txt` e JSON-LD é `https://www.anvet.com.br` — ajuste `$dominio` no topo de `build.ps1` antes de publicar.
 
+## Git e publicação
+
+- Repositório: **https://github.com/jrsanuncios-cyber/siteanvet** (branch `main`).
+- O Git foi instalado via `winget`. Em um terminal novo ele já está no PATH; em sessões antigas use `C:\Program Files\Git\cmd\git.exe` ou adicione ao PATH.
+- Para enviar alterações:
+  ```powershell
+  git add .
+  git commit -m "descricao do que mudou"
+  git push
+  ```
+- Identidade usada nos commits: `jrsanuncios-cyber <jrsanuncios-cyber@users.noreply.github.com>` (troque com `git config user.name` / `user.email`).
+- O site é 100% estático: para publicar, aponte o servidor/hospedagem para a pasta do projeto ou use o **GitHub Pages** (Settings → Pages → branch `main`). Todos os links e assets são relativos, então funciona em subcaminho — mas lembre de ajustar `$dominio` no `build.ps1` se o endereço final for outro.
+
 ## Imagens
 
 Fotos do Wikimedia Commons (licenças livres), otimizadas para ≤1600px. Ao trocar por fotos próprias, mantenha os nomes ou atualize os `src`/`alt` em `build/conteudo/` e `build/dados.json`.
