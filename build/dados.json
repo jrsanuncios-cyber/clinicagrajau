@@ -1,0 +1,162 @@
+{
+  "atualizado": "2026-11-01",
+  "servicos": [
+    {
+      "slug": "consultas",
+      "titulo": "Consultas e Check-ups",
+      "icone": "i-stethoscope",
+      "resumo": "O primeiro encontro do seu pet com a gente. Exame completo, histórico e um plano de cuidado que faz sentido para a idade e a rotina dele.",
+      "img": "assets/img/servico-consultas.jpg",
+      "alt": "Veterinária examinando um cachorro sobre a mesa da consulta",
+      "corpo": "<p>Consulta é onde tudo começa: escutamos a história do seu pet, examinamos cada sistema do corpo e tiramos as dúvidas que você trouxe. Se algo aparecer, explicamos com calma o que é, o que fazer e o que esperar.</p><p>Em consultas de rotina, aproveitamos para revisar peso, vacinas, antipulgas, alimentação e sinais que mudam com a idade. Quanto antes percebemos uma mudança, mais simples e barato é o cuidado.</p>",
+      "detalhes": ["Anamnese e histórico completo", "Exame clínico por sistemas", "Plano de prevenção personalizado", "Orientação de alimentação e rotina"],
+      "paraQuem": "Indicado para check-ups anuais, primeiras consultas, mudanças de comportamento, apetite alterado ou qualquer dúvida sobre o bem-estar do seu pet."
+    },
+    {
+      "slug": "vacinacao",
+      "titulo": "Vacinação e Antipulgas",
+      "icone": "i-shield",
+      "resumo": "Calendário vacinal de cães e gatos, antipulgas e vermífugos com orientação clara sobre quando aplicar e como proteger sua casa.",
+      "img": "assets/img/servico-vacinacao.jpg",
+      "alt": "Aplicação de vacina em um cachorro durante a consulta",
+      "corpo": "<p>Vacinas protegem seu pet contra doenças que ainda existem e podem ser graves. Montamos um calendário realista para a idade, o estilo de vida e a região onde você mora — sem exageros e sem lacunas.</p><p>Junto das vacinas, organizamos a proteção contra pulgas, carrapatos e vermes internos, que são os maiores incômodos da rotina e, muitas vezes, causa de doenças mais sérias.</p>",
+      "detalhes": ["Calendário vacinal de cães e gatos", "Antipulgas e carrapatos", "Vermifugação orientada", "Acompanhamento de reações"],
+      "paraQuem": "Para filhotes em início de proteção, adultos em dia e idosos que precisam de revisão do esquema. Também atendemos tutor com dúvida sobre calendário."
+    },
+    {
+      "slug": "exames",
+      "titulo": "Exames Laboratoriais",
+      "icone": "i-flask",
+      "resumo": "Hemograma, bioquímico, urinálise e mais, com coleta cuidadosa e resultado explicado por quem entende do seu pet.",
+      "img": "assets/img/servico-exames.jpg",
+      "alt": "Técnica de laboratório analisando amostra sob microscópio",
+      "corpo": "<p>Exames laboratoriais mostram o que o corpo está fazendo por dentro. São ferramentas essenciais para diagnosticar, acompanhar tratamentos e monitorar pets que usam medicamentos de longo prazo.</p><p>A coleta é feita com cuidado para reduzir estresse e o resultado chega com uma explicação: o que é normal, o que merece atenção e qual o próximo passo.</p>",
+      "detalhes": ["Hemograma completo", "Bioquímico e perfil hormonal", "Urinálise e coprologia", "Resultados com orientação"],
+      "paraQuem": "Recomendado antes de cirurgias, em pets em tratamento contínuo, com mudanças de peso ou apetite e no acompanhamento de idosos."
+    },
+    {
+      "slug": "imagem",
+      "titulo": "Exames de Imagem",
+      "icone": "i-scan",
+      "resumo": "Radiografia e ultrassom para enxergar o que está por dentro, com leitura atenta e explicação passo a passo para o tutor.",
+      "img": "assets/img/servico-imagem.jpg",
+      "alt": "Radiografia digital de um cachorro sendo analisada em monitor",
+      "corpo": "<p>Quando o exame clínico não é suficiente, a imagem complementa. Radiografia e ultrassom ajudam a avaliar ossos, tórax, abdômen e estruturas moles sem procedimentos invasivos.</p><p>O objetivo é sempre o mesmo: entender o que está acontecendo e oferecer a melhor conduta, com transparência sobre as opções de tratamento e seus custos.</p>",
+      "detalhes": ["Radiografia digital", "Ultrassom abdominal e cardíaco", "Avaliação de fraturas e dores ósseas", "Interpretação com o tutor"],
+      "paraQuem": "Indicado para dores abdominais, tosse, traumas, dificuldade para andar e casos que pedem investigação mais profunda."
+    },
+    {
+      "slug": "cirurgias",
+      "titulo": "Cirurgias",
+      "icone": "i-scissors",
+      "resumo": "Cirurgias eletivas e de urgência, com preparação, anestesia monitorada e pós-operatório acompanhado de perto.",
+      "img": "assets/img/servico-cirurgias.jpg",
+      "alt": "Equipe veterinária em sala de cirurgia durante procedimento",
+      "corpo": "<p>Cada cirurgia começa com uma conversa: o que será feito, os riscos, os cuidados antes e depois e o custo total, sem surpresa. Só seguimos quando o tutor está confortável com todas as respostas.</p><p>Durante o procedimento, a monitoração é contínua — pressão, oxigenação, temperatura e conforto — e o pós-operatório é acompanhado com orientações claras para casa.</p>",
+      "detalhes": ["Avaliação pré-cirúrgica completa", "Anestesia monitorada", "Cuidados de dor no pós", "Retorno e acompanhamento"],
+      "paraQuem": "Indicado para castração, cirurgias de pele, retirada de corpos estranhos, ortopedia e casos que precisam de procedimento urgente."
+    },
+    {
+      "slug": "dermatologia",
+      "titulo": "Dermatologia",
+      "icone": "i-sparkles",
+      "resumo": "Coceira, alergias, micose e problemas de pele e pelagem tratados com diagnóstico preciso e plano que dá resultado.",
+      "img": "assets/img/servico-dermatologia.jpg",
+      "alt": "Exame de pele e pelagem de um cachorro pelo veterinário",
+      "corpo": "<p>Problemas de pele têm muitas causas e quase sempre confundem o tutor: alergia, fungo, parasita, food allergy ou algo combinado. Por isso o caminho é investigar, não testar à toa.</p><p>Trabalhamos com raspagem, citologia e, quando necessário, testes direcionados. Depois, montamos um plano que combate a causa e devolve conforto ao seu pet — e sossego para você.</p>",
+      "detalhes": ["Avaliação de coceira e falhas de pelos", "Investigação de alergias", "Tratamento de infecções de pele", "Cuidados com a pelagem"],
+      "paraQuem": "Para pets que coçam muito, têm manchas, feridas, mau cheiro na pele ou caem com frequência sem motivo aparente."
+    },
+    {
+      "slug": "odontologia",
+      "titulo": "Odontologia",
+      "icone": "i-tooth",
+      "resumo": "Da limpeza à extração, com diagnóstico, controle de dor e orientação para manter a boca saudável por muito mais tempo.",
+      "img": "assets/img/servico-odontologia.jpg",
+      "alt": "Exame da boca e dentes de um cachorro",
+      "corpo": "<p>Saúde bucal é saúde geral: a boca inflamada afeta coração, rins e o apetite do pet. Muitas vezes o sinal é discreto — mau hálito, gengiva vermelha, preferência por comida mole.</p><p>Fazemos avaliação, profilaxia com ultrassom e, quando indicado, extrações com controle de dor. Em casa, orientamos escovação, enxágue e snacks dentais que funcionam de verdade.</p>",
+      "detalhes": ["Avaliação periodontal", "Profilaxia com ultrassom", "Extrações com anestesia segura", "Plano de higiene em casa"],
+      "paraQuem": "Recomendado a partir do primeiro ano, para todos os cães e gatos, e sempre que houver mau hálito ou gengiva sensível."
+    },
+    {
+      "slug": "nutricao",
+      "titulo": "Nutrição e Dietas Especiais",
+      "icone": "i-apple",
+      "resumo": "Orientação alimentar baseada em evidência, para emagrecer, engordar, controlar doença crônica ou apenas acertar o dia a dia.",
+      "img": "assets/img/servico-nutricao.jpg",
+      "alt": "Tigela de ração e pet saudável aguardando a refeição",
+      "corpo": "<p>Ração não é só ração. Quantidade, horário, tipo de alimento e até a forma de servir mudam o resultado — e evitam os problemas clássicos: obesidade, constipação e gula ansiosa.</p><p>Avaliamos peso, composição corporal e rotina para sugerir uma alimentação que combine com a sua realidade e com a saúde do pet a longo prazo.</p>",
+      "detalhes": ["Avaliação de peso e composição corporal", "Dietas de preservação e controladas", "Orientação para filhotes e idosos", "Plano com metas realistas"],
+      "paraQuem": "Para pets com sobrepeso, subpeso, doenças crônicas, gatos com risco de obesidade e tutores que querem acertar a rotina alimentar."
+    },
+    {
+      "slug": "banho",
+      "titulo": "Banho, Tosa e Higiene",
+      "icone": "i-droplets",
+      "resumo": "Cuidado completo com produto adequado para o tipo de pele, secagem segura e atenção ao que a rotina esconde.",
+      "img": "assets/img/servico-banho.jpg",
+      "alt": "Cachorro tomando banho na banheira durante banho e tosa",
+      "corpo": "<p>Banho é muito mais do que cheiro bom: é hora de perceber alergias, nódulos, unhas longas, orelha suja e sinais que passariam despercebidos. Cada detalhe é observado.</p><p>Trabalhamos com produtos adequados para a pele e o pelo de cada pet, secagem sem susto e manipulação paciente — para que o banho vire um momento tranquilo, não um trauma.</p>",
+      "detalhes": ["Banho com produtos específicos", "Tosa higiênica e na medida", "Corte de unhas e limpeza de orelhas", "Observação de pele e sinais de alerta"],
+      "paraQuem": "Para cães e gatos de qualquer porte, pets com pele sensível e quem precisa de uma rotina de higiene tranquila e segura."
+    }
+  ],
+  "posts": [
+    {
+      "slug": "cuidados-filhotes",
+      "titulo": "Os primeiros meses: cuidados essenciais com filhotes",
+      "categoria": "filhotes",
+      "categoriaNome": "Filhotes",
+      "data": "2026-05-12",
+      "dataTexto": "12 de maio de 2026",
+      "tempo": "6 min de leitura",
+      "autor": "Equipe Anvet",
+      "img": "assets/img/blog-1.jpg",
+      "alt": "Filhote de golden retriever deitado no gramado",
+      "resumo": "Vacinas, vermífugos, alimentação e socialização: um roteiro simples para os primeiros meses de vida.",
+      "corpo": "<p>Os primeiros meses são os que mais moldam a vida do seu pet. É quando o corpo cresce rápido, o sistema imune ainda está se formando e os hábitos começam a ser criados. Com um roteiro simples, você evita sustos e aproveita melhor cada fase.</p><h2>Saúde e prevenção</h2><p>A primeira consulta acontece ainda nos primeiros dias em casa. Nela, montamos o calendário vacinal, a vermifugação e o plano de proteção contra pulgas e carrapatos. Vacinar cedo protege contra doenças graves que ainda circulam — e filhote vacinado pela metade continua exposto.</p><h2>Alimentação na medida</h2><p>Filhote come mais vezes ao dia, com ração própria para a fase de crescimento. Água sempre fresca e sem restos de comida à vontade: rotina alimentar é a base do peso saudável na vida adulta. Na dúvida sobre a quantidade, pergunte — é melhor ajustar cedo do que corrigir sobrepeso depois.</p><h2>Socialização com calma</h2><p>Apresente o filhote a pessoas, sons e outros animais de forma gradual e positiva. Passeios curtos, visitas tranquilas e brincadeiras em casa ajudam a criar um cão confiante. Excesso de estímulo de uma vez só gera medo, não confiança.</p><h2>Treinos e rotina</h2><p>Horário fixo para dormir, brincar e fazer as necessidades. Reforce o positivo: elogie quando usar o tapete, a caixa de areia ou sentar quando pedido. Cão bem orientado se adapta mais rápido e cria menos problemas no futuro.</p><p>Combine tudo com a equipe no primeiro retorno. Cada filhote tem um ritmo, e o nosso papel é ajudar você a enxergar o que é normal — e o que precisa de atenção.</p>"
+    },
+    {
+      "slug": "vacinacao-caes-gatos",
+      "titulo": "Vacinação em cães e gatos: o que você precisa saber",
+      "categoria": "vacinacao",
+      "categoriaNome": "Vacinação",
+      "data": "2026-04-28",
+      "dataTexto": "28 de abril de 2026",
+      "tempo": "5 min de leitura",
+      "autor": "Equipe Anvet",
+      "img": "assets/img/blog-2.jpg",
+      "alt": "Veterinária examinando um cão branco com estetoscópio",
+      "resumo": "Quando começar, quais doses importam e como manter a carteirinha sempre em dia.",
+      "corpo": "<p>Vacinar é a forma mais barata de evitar uma doença grave. Ainda assim, dúvidas sobre calendário vacinal aparecem em quase toda consulta. Este resumo ajuda a entender a lógica — e reforça a importância de ajustar o plano ao seu pet.</p><h2>Filhote: a base da proteção</h2><p>Os primeiros meses pedem uma série de doses, com intervalos de três a quatro semanas. O leite materno protege apenas por pouco tempo, e a imunidade só se completa com o esquema completo. Por isso, filhote vacinado parcialmente continua exposto.</p><h2>O que protege</h2><p>As vacinas básicas cobrem doenças como parvovirose, cinomose, hepatite, raiva e leptospirose. Algumas são indicadas conforme o estilo de vida: cão que passeia em parque pede proteção a mais do que o que fica só em casa. A conversa com o veterinário define isso.</p><h2>Reforços na vida adulta</h2><p>Após o esquema inicial, a proteção se mantém com reforços periódicos. Prazos e intervalos variam conforme a vacina e o pet — por isso, o cartão vacinal e o acompanhamento profissional valem mais do que qualquer calendário genérico da internet.</p><h2>Gatos também entram na conta</h2><p>Gatos têm seu próprio esquema, incluindo a proteção contra rinotraqueíte, calicivirose e panleucopenia. Muitos tutores esquecem: gatos que saem de casa ou convivem com outros felinos pedem atenção redobrada.</p><p>Marque uma consulta para montar o calendário do seu pet com base na idade, no peso e na rotina dele. É rápido, e evita sustos caros depois.</p>"
+    },
+    {
+      "slug": "alimentacao-equilibrada",
+      "titulo": "Alimentação equilibrada: como escolher a ração ideal",
+      "categoria": "alimentacao",
+      "categoriaNome": "Alimentação",
+      "data": "2026-04-09",
+      "dataTexto": "9 de abril de 2026",
+      "tempo": "5 min de leitura",
+      "autor": "Equipe Anvet",
+      "img": "assets/img/blog-3.jpg",
+      "alt": "Tigela branca com ração seca",
+      "resumo": "Leia o rótulo, entenda as fases da vida e evite erros comuns na hora de servir a comida.",
+      "corpo": "<p>Escolher ração não é só comparar preço ou embalagem bonita. O que importa é o que está escrito no rótulo, a fase de vida do seu pet e a quantidade servida. Com esses três pontos acertados, o resto fica mais fácil.</p><h2>Leia o rótulo</h2><p>Comece pela composição: proteína de qualidade vem antes de corantes e aromatizantes. Verifique a indicação de vida (filhote, adulto, sênior) e se há recomendação de quantidade. Ração boa não precisa de promessa milagrosa na frente da embalagem.</p><h2>Fase de vida importa</h2><p>Filhote precisa de nutrientes para crescer; adulto, de manutenção; sênior, de calorias controladas e articulações. Trocar de ração de uma hora para outra pode causar desconforto — faça a transição aos poucos, misturando a nova com a antiga por uma semana.</p><h2>Quantidade e horário</h2><p>Medir a porção evita o erro mais comum: servir no olho. Use a medida da embalagem ou a orientação da equipe. Horários fixos ajudam o metabolismo e evitam a gula ansiosa, principalmente em gatos.</p><h2>Petiscos com consciência</h2><p>Petisco pode ser carinho, mas não pode virar refeição. Some tudo o que seu pet come no dia e compare com o recomendado. Se o petisco estiver demais, reduza a ração — não o contrário.</p><p>Na dúvida, traga a embalagem para a consulta. A gente ajusta a quantidade com base no peso, na atividade e no resultado que você quer ver.</p>"
+    },
+    {
+      "slug": "sinais-atencao",
+      "titulo": "Sinais de que seu pet precisa de atendimento",
+      "categoria": "prevencao",
+      "categoriaNome": "Prevenção",
+      "data": "2026-03-21",
+      "dataTexto": "21 de março de 2026",
+      "tempo": "4 min de leitura",
+      "autor": "Equipe Anvet",
+      "img": "assets/img/blog-4.jpg",
+      "alt": "Cachorro francês sentado na balança da clínica",
+      "resumo": "Mudanças de apetite, energia e rotina merecem atenção. Veja quando não é esperar.",
+      "corpo": "<p>Tutores conhecem bem o próprio pet. Quando algo muda no apetite, na energia ou na rotina, a gente costuma sentir antes de qualquer exame. Aprender a enxergar esses sinais economiza tempo, dinheiro e evita sofrimento.</p><h2>Sinais que pedem atenção</h2><p>Recusa de comida por mais de um dia, vômitos repetidos, diarreia, dificuldade para respirar, inquietação constante, urinar fora do lugar com dor, gengiva pálida ou amarelada e qualquer ferida que não melhora. Em filhotes e idosos, qualquer mudança vale uma ligação.</p><h2>Quando é urgência</h2><p>Dificuldade respiratória, sangramento que não para, convulsões, recusa total de água, barriga inchada e dor intensa são emergências. Não espere o horário da clínica: ligue antes de sair, para a equipe se preparar para receber seu pet com prioridade.</p><h2>O que observar antes de ir</h2><p>Anote desde quando começou, o que o pet comeu, se houve acesso a plantas, remédios ou lixo, e como está a urina e as fezes. Essas informações ajudam muito na avaliação. Tire uma foto ou vídeo do sintoma, se possível.</p><h2>Prevenção encurta o caminho</h2><p>Check-ups regulares, vacinas em dia e acompanhamento de peso fazem o corpo dar sinais mais claros de alerta. Pet bem cuidado tem menos surpresa — e quando aparece, a gente pega mais cedo.</p><p>Na dúvida, fale com a gente. Melhor uma pergunta a mais do que uma noite de preocupação.</p>"
+    }
+  ]
+}

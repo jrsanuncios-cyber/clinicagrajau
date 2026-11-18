@@ -1,0 +1,72 @@
+    <!-- ======================= ARTIGO ======================= -->
+    <section class="pagina-topo">
+      <span class="forma forma--azul" style="width:300px;height:300px;top:-80px;right:-70px" data-parallax="0.07" aria-hidden="true"></span>
+      <span class="forma forma--bege" style="width:120px;height:120px;bottom:8%;left:6%" data-parallax="0.14" aria-hidden="true"></span>
+      <div class="container">
+        <nav class="migalha" aria-label="Você está em">
+          <a href="index.html">Início</a>
+          <svg class="ico" width="16" height="16" aria-hidden="true"><use href="#i-chev-right"></use></svg>
+          <a href="blog.html">Blog</a>
+          <svg class="ico" width="16" height="16" aria-hidden="true"><use href="#i-chev-right"></use></svg>
+          <span aria-current="page">{{CATEGORIA}}</span>
+        </nav>
+        <span class="eyebrow" style="margin-top:1.4rem">{{CATEGORIA}}</span>
+        <h1>{{TITULO}}</h1>
+        <p class="lead">{{RESUMO}}</p>
+        <p class="post-data" style="margin-top:1.2rem">
+          <svg class="ico" width="16" height="16" aria-hidden="true"><use href="#i-calendar"></use></svg>
+          <time datetime="{{DATA-ISO}}">{{DATA-TEXTO}}</time>
+          <span aria-hidden="true">·</span>
+          <span>{{TEMPO}}</span>
+          <span aria-hidden="true">·</span>
+          <span>Por {{AUTOR}}</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Artigo">
+      <div class="container">
+        <figure class="reveal" style="margin-bottom:2.4rem">
+          <img src="{{IMG}}" alt="{{ALT}}" loading="lazy" style="border-radius:var(--raio-gg);box-shadow:var(--sombra-suave);width:100%">
+        </figure>
+
+        <div class="conteudo reveal" style="max-width:760px">
+          {{CONTEUDO}}
+
+          <blockquote>
+            Este conteúdo é informativo e não substitui uma consulta. Na dúvida sobre o seu pet, fale com o veterinário.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--creme" aria-labelledby="relacionados-titulo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Continue lendo</span>
+          <h2 id="relacionados-titulo">Outros artigos.</h2>
+        </div>
+        <div class="posts-grid" data-sequencia>
+          {{RELACIONADOS}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--azul" aria-label="Fale com a clínica">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <span class="eyebrow eyebrow--claro">Dúvida sobre o seu pet?</span>
+            <h2>Conteúdo ajuda, mas cada animal é único.</h2>
+            <p>Fale com a gente: a gente escuta a história completa e responde com calma.</p>
+            <div class="cta-acoes">
+              <a class="btn btn--claro btn--grande" data-zap href="tel:+551159398706">
+                <svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-phone"></use></svg>
+                Ligar agora
+              </a>
+              <a class="btn btn--fantasma-claro btn--grande" href="contato.html">Agendar consulta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

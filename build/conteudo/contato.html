@@ -1,0 +1,181 @@
+<section class="pagina-topo">
+  <span class="forma forma--azul" style="width:300px;height:300px;top:-80px;right:-70px" data-parallax="0.07" aria-hidden="true"></span>
+  <svg class="patinha" style="width:46px;top:44%;left:7%" data-parallax="0.15" viewBox="0 0 64 64" aria-hidden="true"><use href="#i-paw"></use></svg>
+  <div class="container">
+    <nav class="migalha" aria-label="Você está em">
+      <a href="index.html">Início</a>
+      <svg class="ico" width="16" height="16" aria-hidden="true"><use href="#i-chev-right"></use></svg>
+      <span aria-current="page">Contato</span>
+    </nav>
+    <span class="eyebrow" style="margin-top:1.4rem">Contato e localização</span>
+    <h1>Vamos conversar sobre o seu pet?</h1>
+    <p class="lead">Ligue para agendar, chegue até a gente ou deixe sua mensagem — respondemos durante o horário de funcionamento.</p>
+  </div>
+</section>
+
+<section class="section section--branco" aria-labelledby="contato-titulo">
+  <div class="container contato-grid">
+    <div class="reveal reveal--esquerda">
+      <span class="eyebrow">Onde estamos</span>
+      <h2 id="contato-titulo" class="h2" style="margin-block:1.1rem .9rem">Perto de você, fácil de chegar.</h2>
+
+      <ul class="contato-lista">
+        <li class="contato-item">
+          <span class="confianca-icone"><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-pin"></use></svg></span>
+          <div><strong>Endereço</strong>
+            <span data-campo="endereco.linha1">Av. Dona Belmira Marin, 1801 - Parque Brasil</span><br>
+            <span data-campo="endereco.linha2">São Paulo - SP, 04846-010</span>
+          </div>
+        </li>
+        <li class="contato-item">
+          <span class="confianca-icone"><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-phone"></use></svg></span>
+          <div><strong>Telefone</strong>
+            <a data-tel href="tel:+551159398706" data-campo="telefone">(11) 5939-8706</a>
+          </div>
+        </li>
+        <li class="contato-item">
+          <span class="confianca-icone"><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-calendar"></use></svg></span>
+          <div><strong>Agendamento</strong>
+            <a data-zap href="tel:+551159398706">Ligar para agendar consulta</a>
+          </div>
+        </li>
+        <li class="contato-item">
+          <span class="confianca-icone"><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-mail"></use></svg></span>
+          <div><strong>E-mail</strong>
+            <a data-campo="email" href="mailto:contato@anvet.com.br">contato@anvet.com.br</a>
+          </div>
+        </li>
+        <li class="contato-item">
+          <span class="confianca-icone"><svg class="ico" width="22" height="22" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+          <div><strong>Horários</strong>
+            <ul class="footer-lista" data-horarios>
+              <li><span>Segunda a sábado</span><strong>09h às 18h</strong></li>
+              <li><span>Domingo</span><strong>Fechado</strong></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <div class="hero-acoes" style="margin-top:1.8rem">
+        <a class="btn btn--primario" data-maps href="https://www.google.com/maps/search/?api=1&query=Av.%20Dona%20Belmira%20Marin%201801%20S%C3%A3o%20Paulo%20-%20SP">
+          <svg class="ico" width="18" height="18" aria-hidden="true"><use href="#i-pin"></use></svg> Como chegar
+        </a>
+        <a class="btn btn--whatsapp" data-zap href="tel:+551159398706">
+          <svg class="ico" width="18" height="18" aria-hidden="true"><use href="#i-phone"></use></svg> Ligar agora
+        </a>
+      </div>
+
+      <div class="redes" style="margin-top:1.6rem">
+        <a data-rede="instagram" href="https://instagram.com/" aria-label="Instagram da clínica"><svg class="ico" width="20" height="20" aria-hidden="true"><use href="#i-instagram"></use></svg></a>
+        <a data-rede="facebook" href="https://facebook.com/" aria-label="Facebook da clínica"><svg class="ico" width="20" height="20" aria-hidden="true"><use href="#i-facebook"></use></svg></a>
+        <a data-rede="maps" href="https://maps.google.com/" aria-label="Avaliações no Google Maps"><svg class="ico" width="20" height="20" aria-hidden="true"><use href="#i-pin"></use></svg></a>
+      </div>
+    </div>
+
+    <form class="formulario reveal reveal--direita" data-form novalidate aria-labelledby="form-titulo">
+      <span class="eyebrow">Formulário</span>
+      <h2 id="form-titulo" class="h3" style="margin-block:.9rem .4rem">Envie sua mensagem</h2>
+      <p class="texto-suave" style="font-size:.95rem">Quanto mais detalhes, melhor preparados ficamos para o atendimento.</p>
+
+      <div class="form-grid" style="margin-top:1.4rem">
+        <div class="campo campo--full">
+          <label for="campo-nome">Seu nome <span class="obrig" aria-hidden="true">*</span></label>
+          <input type="text" id="campo-nome" name="nome" autocomplete="name" required data-tipo="texto" aria-describedby="campo-nome-erro" placeholder="Como podemos te chamar?">
+          <span class="erro" id="campo-nome-erro" role="alert"></span>
+        </div>
+
+        <div class="campo">
+          <label for="campo-telefone">Telefone <span class="obrig" aria-hidden="true">*</span></label>
+          <input type="tel" id="campo-telefone" name="telefone" autocomplete="tel" required data-tipo="telefone" aria-describedby="campo-telefone-erro" placeholder="(11) 99999-9999">
+          <span class="erro" id="campo-telefone-erro" role="alert"></span>
+        </div>
+
+        <div class="campo">
+          <label for="campo-email">E-mail <span class="obrig" aria-hidden="true">*</span></label>
+          <input type="email" id="campo-email" name="email" autocomplete="email" required aria-describedby="campo-email-erro" placeholder="voce@email.com">
+          <span class="erro" id="campo-email-erro" role="alert"></span>
+        </div>
+
+        <div class="campo">
+          <label for="campo-pet">Nome do pet</label>
+          <input type="text" id="campo-pet" name="pet" aria-describedby="campo-pet-erro" placeholder="Ex.: Thor">
+          <span class="erro" id="campo-pet-erro" role="alert"></span>
+        </div>
+
+        <div class="campo">
+          <label for="campo-tipo">Tipo de animal</label>
+          <select id="campo-tipo" name="tipo" aria-describedby="campo-tipo-erro">
+            <option value="">Selecione</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="outro">Outro</option>
+          </select>
+          <span class="erro" id="campo-tipo-erro" role="alert"></span>
+        </div>
+
+        <div class="campo campo--full">
+          <label for="campo-assunto">Assunto <span class="obrig" aria-hidden="true">*</span></label>
+          <select id="campo-assunto" name="assunto" required aria-describedby="campo-assunto-erro">
+            <option value="">Selecione o assunto</option>
+            <option value="consulta">Agendar consulta</option>
+            <option value="vacina">Vacinação</option>
+            <option value="exames">Exames e resultados</option>
+            <option value="cirurgia">Cirurgias e internação</option>
+            <option value="banho">Banho e higiene</option>
+            <option value="outro">Outro assunto</option>
+          </select>
+          <span class="erro" id="campo-assunto-erro" role="alert"></span>
+        </div>
+
+        <div class="campo campo--full">
+          <label for="campo-mensagem">Mensagem <span class="obrig" aria-hidden="true">*</span></label>
+          <textarea id="campo-mensagem" name="mensagem" required data-tipo="texto" aria-describedby="campo-mensagem-erro" placeholder="Conte um pouco sobre o seu pet e o que precisa."></textarea>
+          <span class="erro" id="campo-mensagem-erro" role="alert"></span>
+        </div>
+
+        <div class="campo campo--full">
+          <label for="campo-consentimento" style="display:flex;gap:.7rem;align-items:flex-start;font-weight:500;font-size:.92rem">
+            <input type="checkbox" id="campo-consentimento" name="consentimento" required aria-describedby="campo-consentimento-erro" style="width:auto;margin-top:.3rem">
+            <span>Li e concordo com a <a class="link-seta" href="privacidade.html" style="font-size:.92rem">Política de Privacidade</a> e autorizo o uso dos meus dados para retorno deste contato. <span class="obrig" aria-hidden="true">*</span></span>
+          </label>
+          <span class="erro" id="campo-consentimento-erro" role="alert"></span>
+        </div>
+
+        <div class="honeypot" aria-hidden="true">
+          <label for="campo-site">Não preencha</label>
+          <input type="text" id="campo-site" name="site" tabindex="-1" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="form-rodape">
+        <button class="btn btn--primario btn--grande" type="submit">
+          <span data-rotulo>Enviar mensagem</span>
+          <svg class="ico" width="18" height="18" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+        </button>
+        <p class="aviso-form">Campos com <span class="obrig">*</span> são obrigatórios. Seus dados não são compartilhados.</p>
+      </div>
+
+      <p class="form-status" data-status></p>
+    </form>
+  </div>
+</section>
+
+<section class="section section--creme" aria-labelledby="mapa-titulo">
+  <div class="container">
+    <div class="section-head section-head--centro reveal">
+      <span class="eyebrow">Localização</span>
+      <h2 id="mapa-titulo">Chegue sem stress.</h2>
+      <p class="lead">Estacionamento no local e acesso sinalizado a partir da avenida principal.</p>
+    </div>
+    <div class="reveal">
+      <iframe class="mapa" data-mapa loading="lazy" title="Mapa da localização da Clínica Veterinária Anvet"
+        src="https://www.google.com/maps?q=-23.7453835,-46.6891857&hl=pt-BR&z=16&output=embed"
+        referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+    <div style="text-align:center;margin-top:1.6rem" class="reveal">
+      <a class="btn btn--contorno" data-maps href="https://www.google.com/maps/search/?api=1&query=Av.%20Dona%20Belmira%20Marin%201801%20S%C3%A3o%20Paulo%20-%20SP">
+        <svg class="ico" width="18" height="18" aria-hidden="true"><use href="#i-pin"></use></svg> Abrir no Google Maps
+      </a>
+    </div>
+  </div>
+</section>
